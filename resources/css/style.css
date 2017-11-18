@@ -58,7 +58,7 @@ nav a {
   justify-content: center;
   align-items: stretch;
   position: relative;
-  top: 81px;
+  top: 100px;
 
   font-family: Georgia;
   font-size: 17px;
@@ -67,10 +67,6 @@ nav a {
 
 h1 {
   font-size: 25px;
-}
-
-h2 {
-  font-size: 22px;
 }
 
 /* left column */
@@ -92,29 +88,42 @@ h2 {
   font-size: 40px;
 }
 
-.earth {
-  background-image: url(../images/img-story-2.png);
-  height: 300px
+.shorts {
+  display: flex;
+  justify-content: space-between;
 }
 
-.earth span {
+.one, .two {
+  margin: 5px;
+
+}
+
+.earth {
+  background-image: url(../images/img-story-2.png);
+  padding: 5px;
+  width: 290px;
+  height: 290px;
+
   font-family: Georgia;
   font-weight: bold;
   color: white;
   font-size: 30px;
+  text-align: center;
 }
 
 .camera {
   background-image: url(../images/img-story-3.png);
-  height: 300px;
-}
+  padding: 5px;
+  width: 290px;
+  height: 290px;
 
-.camera span {
   font-family: Georgia;
   font-weight: bold;
   color: white;
   font-size: 30px;
+  text-align: center;
 }
+
 
 /* middle column */
 
@@ -125,11 +134,10 @@ h2 {
 
 .catsincontrol {
   background-image: url(../images/img-story-1.png);
-  width: 299px;
-  height: 300px;
-}
+  padding: 5px;
+  width: 290px;
+  height: 290px;
 
-.catsincontrol span {
   font-family: Georgia;
   font-weight: bold;
   color: white;
@@ -142,4 +150,23 @@ h2 {
 .right {
   width: 240px;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.newsbites h2 {
+  margin-bottom: 41px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.newsbites .bite {
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
