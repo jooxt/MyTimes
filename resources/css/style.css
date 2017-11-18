@@ -4,32 +4,49 @@
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: fixed;
   z-index: 1;
   height: 80px;
   border-bottom: 1px solid black;
   width: 100%;
-  background-color: white
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  left: 0;
+  top: 0;
 }
 
-header img {
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.logo img {
   display: flex;
   align-items: center;
+  margin-left: 30px;
   margin-right: 10px;
 }
 
-header span {
+.logo span {
   display: flex;
+  align-items: center;
   color: MediumAquamarine;
 }
 
 header nav {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0 30px;
 }
 
-header nav a {
+nav span {
+  margin: 0 10px;
+}
+
+nav a {
   color: black;
 }
