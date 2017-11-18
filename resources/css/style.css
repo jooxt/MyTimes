@@ -50,3 +50,28 @@ nav span {
 nav a {
   color: black;
 }
+
+/* maincontainer */
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 81px;
+
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.left {
+  width: 630px;
+}
+
+.middle {
+  width: 300px;
+}
+
+.right {
+  width: 240px;
+}
